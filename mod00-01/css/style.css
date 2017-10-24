@@ -1,0 +1,41 @@
+body {
+	background-color: lightblue;
+	background: url("../img/bg01.jfif");
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	
+	font-family: 'Fascinate Inline', cursive;
+
+
+}
+
+h1	{
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+h2{
+	text-transform: lowercase;
+	letter-spacing: 2px;
+
+}
+
+#me {
+	height: 250px;
+	border-radius: 20%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: lightblue;
+	margin-top: 35px;
+}
+
+.about{
+	width: 100%;
+}
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
