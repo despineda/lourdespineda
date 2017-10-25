@@ -1,0 +1,235 @@
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git init
+\Initialized empty Git repository in C:/Users/Night3/Documents/Lourdes Pineda/.g                                   it/
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git commit -m "my first ever commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Night3@DESKTOP-VVVCNCU.(none)')
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git config --global user.email "des.pineda@rocketmail.com"
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git config --global user.name "des"
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git status -s
+?? mod00-01/
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git add .
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git commit -m "my first ever commit"
+[master (root-commit) f28502f] my first ever commit
+ 5 files changed, 64 insertions(+)
+ create mode 100644 mod00-01/css/style.css
+ create mode 100644 mod00-01/img/bg001.jfif
+ create mode 100644 mod00-01/img/bg01.jfif
+ create mode 100644 mod00-01/img/pic01.jpg
+ create mode 100644 mod00-01/index.html
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git status -s
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git log
+commit f28502f8ac916f094851dfb8adbfc82e054c6c7c (HEAD -> master)
+Author: des <des.pineda@rocketmail.com>
+Date:   Tue Oct 24 18:22:18 2017 +0800
+
+    my first ever commit
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git remote add github https://github.com/desss91/b3nc-pineda-lourdes.git
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git remote -v
+github  https://github.com/desss91/b3nc-pineda-lourdes.git (fetch)
+github  https://github.com/desss91/b3nc-pineda-lourdes.git (push)
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git push github master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 176.71 KiB | 0 bytes/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://github.com/desss91/b3nc-pineda-lourdes.git
+ * [new branch]      master -> master
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   mod00-01/css/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git diff
+diff --git a/mod00-01/css/style.css b/mod00-01/css/style.css
+index 42b49ee..b944f1a 100644
+--- a/mod00-01/css/style.css
++++ b/mod00-01/css/style.css
+@@ -18,6 +18,7 @@ h1    {
+ h2{
+        text-transform: lowercase;
+        letter-spacing: 2px;
++       color: lightblue;
+
+ }
+
+@@ -32,6 +33,10 @@ h2{
+
+ .about{
+        width: 100%;
++       font-size: 15px;
++       line-height: 1.5;
++
++
+ }
+
+ .container{
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git add .
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git status -s
+M  mod00-01/css/style.css
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git commit -m "my second commit"
+[master 6eefc8f] my second commit
+ 1 file changed, 5 insertions(+)
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git push github master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 482 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/desss91/b3nc-pineda-lourdes.git
+   f28502f..6eefc8f  master -> master
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git add .
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git status -s
+M  mod00-01/css/style.css
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git commit -m "My Second Commit"
+[master 03ae1cb] My Second Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git push github master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 437 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/desss91/b3nc-pineda-lourdes.git
+   6eefc8f..03ae1cb  master -> master
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git add .
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git status -s
+M  mod00-01/css/style.css
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git commit -m "my second commit"
+[master dba8ef7] my second commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git push github master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 430 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/desss91/b3nc-pineda-lourdes.git
+   03ae1cb..dba8ef7  master -> master
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git add .
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git status -s
+M  mod00-01/css/style.css
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git commit -m "My Second commit"
+[master 7d1f42e] My Second commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git push github master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 437 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/desss91/b3nc-pineda-lourdes.git
+   dba8ef7..7d1f42e  master -> master
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git add .
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git status -s
+M  mod00-01/css/style.css
+A  mod00-01/img/BG01.png
+D  mod00-01/img/bg001.jfif
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git commit -m "My Second Commit"
+[master 9a5a70f] My Second Commit
+ 3 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 mod00-01/img/BG01.png
+ delete mode 100644 mod00-01/img/bg001.jfif
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$ git push github master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 2.92 MiB | 83.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/desss91/b3nc-pineda-lourdes.git
+   7d1f42e..9a5a70f  master -> master
+
+Night3@DESKTOP-VVVCNCU MINGW64 ~/Documents/Lourdes Pineda (master)
+$
