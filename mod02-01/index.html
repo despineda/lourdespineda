@@ -6,15 +6,14 @@
 	<title>My Second Website - This is the best website ever!</title>
 
 		<style type="text/css">
+			
+			table, tr, th, td {
+   				border-collapse: collapse;
+   				border: 1px solid black;
+			}
 			.red{
 			color: red;
-			}
-
-			table, tr, th, td {
-   			border-collapse: collapse;
-   			border: 1px solid black;
-   			
-			}
+		}
 		</style>
 
 
@@ -245,19 +244,16 @@
 			<td>Math</td>
 			<td>Art</td>
 		</tr>
-
 		<tr>
 			<th>Tuesday</th>
 			<td>Gym</td>
 			<td>Home</td>
 		</tr>
 	
-
 	<hr>
 	<tr>
 		<th></th>
 		<th>TV5</th>
-		<th></th>
 		<th>GMA</th>
 		<th>ABS-CBN</th>
 	</tr>
@@ -265,7 +261,6 @@
 	<tr>
 		<th>6 PM - 7 PM</th>
 		<td rowspan="2">Cartoons</td>
-		<td></td>
 		<td>comedy</td>
 		<td>News</td>
 	</tr>
@@ -351,5 +346,60 @@
 		<input type="submit" name="signIn" value="signIn">
 		<input type="submit" name="signUp" value="signUp">
 	</form>
+
+	<hr>
+	<fieldset>
+		<legend>Contact Details</legend>
+		<label for="email">Email</label>
+		<input type="email" name="email">
+
+		<label for="mobile">Mobile</label>
+		<input type="number" name="mobile">
+	</fieldset>
+
+	<hr>
+	<fieldset>
+		<legend>Your Details</legend>
+		<label for="name">Name</label>
+		<input type="name" name="name">
+		<br>
+		<label for="email">Email</label>
+		<input type="email" name="email">
+	</fieldset>
+
+	<fieldset>
+		
+		<form action="" method="">
+		How did you know about us?
+		<select name="website" >
+			
+			<option value="Google">Google</option>
+			<option value="Facebook">Facebook</option>
+			<option value="Instagram" selected>Instagram</option>
+			<option value="Blog">Blog</option>
+			<option value="Website">Website</option>
+			<option value="Referral">Referral</option>
+		</select>
+
+		<br>
+		Would you visit again? <br>
+		<input type="radio" name="genre" value="yes">Yes
+		<input type="radio" name="genre" value="no">No
+		<input type="radio" name="genre" value="maybe">Maybe
+
+		<h4>comments</h4>
+		<form action="" method="">
+		<textarea></textarea>
+		
+	</form>
+
+	<input type="checkbox" name="signUp" value="signUp">Sign me up for email update
+
+	<br>
+	<button>
+			Submit Review
+	</button>
+	</fieldset>
+
 </body>
 </html>
