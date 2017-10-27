@@ -2,6 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	
+	
+	<!--
+	Other Meta Code
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="X-UA-Compatible" content="IE-Edge">  -->
+	
 
 	<title>My Second Website - This is the best website ever!</title>
 
@@ -358,42 +365,50 @@
 	</fieldset>
 
 	<hr>
+	
+	<form action="" method="" style="width: 50%;">
 	<fieldset>
+
 		<legend>Your Details</legend>
+		
 		<label for="name">Name</label>
-		<input type="name" name="name">
-		<br>
+		<input type="text" name="name">
+
 		<label for="email">Email</label>
 		<input type="email" name="email">
 	</fieldset>
-
-	<fieldset>
-		
-		<form action="" method="">
-		How did you know about us?
-		<select name="website" >
-			
-			<option value="Google">Google</option>
-			<option value="Facebook">Facebook</option>
-			<option value="Instagram" selected>Instagram</option>
-			<option value="Blog">Blog</option>
-			<option value="Website">Website</option>
-			<option value="Referral">Referral</option>
-		</select>
-
-		<br>
-		Would you visit again? <br>
-		<input type="radio" name="genre" value="yes">Yes
-		<input type="radio" name="genre" value="no">No
-		<input type="radio" name="genre" value="maybe">Maybe
-
-		<h4>comments</h4>
-		<form action="" method="">
-		<textarea></textarea>
-		
 	</form>
 
-	<input type="checkbox" name="signUp" value="signUp">Sign me up for email update
+	<form action="" method="" style="width: 50%;">
+	<fieldset>
+		
+		<legend>Your Review</legend>
+		<label for="ads">How did you hear about us?</label>
+		<select name="ads" >	
+			<option>Google</option>
+			<option>Facebook</option>
+			<option>Instagram</option>
+			<option>Blog</option>
+			<option>Website</option>
+			<option>Referral</option>
+		</select>
+
+		<br><br>
+		<label>Would you visit again?</label>
+		<br>
+		<input type="radio" name="visit">Yes
+		<input type="radio" name="visit">No
+		<input type="radio" name="visit">Maybe
+		<br><br>
+		
+		<label>Comments</label>
+		<br>
+		
+		<textarea rows="6" cols="65"></textarea>
+		<br>
+	</form>
+
+	<input type="checkbox" name="signUp" checked>Sign me up for email update
 
 	<br>
 	<button>
