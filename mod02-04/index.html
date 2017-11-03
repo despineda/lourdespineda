@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+	<title>CSS Prep Course</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="wrapper">
+	<header>
+		<h1 align="center">Welcome to my blog!</h1>
+	</header>
+		
+	<main>
+		<!-- dashboard -->
+		<div class="main-dashboard">
+			<h3 class="inline-blocked dashboard"><i class="fa fa-home" aria-hidden="true"></i> Dashboard</h3>
+			
+			<div class="dashboard-thumbnail">
+				<div id="postCircle" class="dashboard-circles">
+					<i class="fa fa-file-text-o fa lg" aria-hidden="true"></i>
+				</div>
+
+				<div class="inline-blocked">
+					<p class="dashboard-text">5</p>
+					<p class="dashboard-text">Posts</p>
+				</div>
+			</div>
+			
+			<div class="dashboard-thumbnail">
+				<div id="imageCircle" class="dashboard-circles">
+					<i class="fa fa-image" aria-hidden="true"></i>
+				</div>
+
+				<div class="inline-blocked">
+					<p class="dashboard-text">13</p>
+					<p class="dashboard-text">Images</p>
+				</div>
+			</div>
+		</div>	
+		
+		<!-- new post -->
+		<div class="dashboard">
+			<h3><i class="fa fa-plus-circle" aria-hidden="true"></i> New Post</h3>
+
+			<form class="hide-overflow" action="" method="post">
+				<input id="postTitle" type="text" name="" value="" placeholder="Enter your post title">
+				
+				<textarea id="postContent" type="text" placeholder="Enter post content here"></textarea>
+				
+				<button id="btnPublish" class="btn btn-blue" type="button" name="button">Publish</button>
+			</form>
+		</div>	
+		
+		<!-- upload image -->
+		<div>
+			<h3><i class="fa fa-cloud-upload" aria-hidden="true"> Upload Image</i></h3>
+
+		<div class="img-set-holder">		
+				<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+				<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+				<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+				<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+				<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+		</div>			
+			
+
+			<form class="hide-overflow" method="post">	
+				<button id="btnBrowse" class="btn btn-blue" type="button" name="btnBrowse">Browse</button>
+				<button id="btnUpload" class="btn btn-green" type="button" name="btnUpload">Upload</button>
+			</form>
+		</div>	
+	</main>
+
+	<footer>
+		<p>Tuitt Coding Bootcamp &copy 2017</p>
+	</footer>	
+
+	<script src=""></script>
+</body>
+</html>
