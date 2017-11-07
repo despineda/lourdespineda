@@ -1,0 +1,75 @@
+* {
+	font-size: 24px;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto; 
+	border: 2px solid black;
+	padding: 20px;
+}
+
+/* :link (unvisited link) */
+a:link {
+	color: #008000; /* from blue to green*/
+}
+
+/* :visited (visited link)*/
+a:visited {
+	color: #006666; /* from violet to light blue*/
+}
+
+a:focus {
+	color: #992600;
+}
+
+a:hover {
+	background-color: lightgrey;
+}
+
+a:active {
+	color: #004d99;
+}
+
+main.wrapper:hover {
+	background-color: lightblue;
+}
+
+p, 
+#test,
+.spans,
+.box p {
+	color: #99004d;
+}
+
+/*attribute selector*/
+
+a[target="_blank"] {
+	background-color: yellow;
+}
+
+p span#dark_bg {
+	color: white;
+	background-color: black;
+}
+
+div ~ p {
+	background-color: red;
+}
+
+div + p {
+	background-color: lightgreen;
+}
+
+div > p {
+	background-color: blue;
+}
+
+div div p {
+	background-color: orange;
+}
+
+/*
+body {
+	background-color: red;
+}
