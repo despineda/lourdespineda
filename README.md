@@ -11,7 +11,6 @@
 This is my first feedback.
 
 ## 2017-11-08
-### Web Design
-Good environment ayos ang turo i can easily catch up the lesson nkaka motivate  . .
-
+### DOM, HTML and CSS
+Good environment ayos ang turo nkaka motivate ^_^ 
 
