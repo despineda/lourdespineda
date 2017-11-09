@@ -48,9 +48,13 @@ alert(s);
 
 :zap:
 
+<<<<<<< HEAD
 :v:
 
 ## Tables
 | firsname 	 | lastname |
 |:-----------|:---------|
 |Ma.Lourdes  | Pineda   |
+=======
+:v:
+>>>>>>> 7897e56c72ae34a1d61a07e1ef7eb8f7ce20048b
