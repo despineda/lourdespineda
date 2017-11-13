@@ -5,6 +5,10 @@
 
 .grandparent{
 	background-color: skyblue;
+	width: 30%;
+	position: fixed;
+	/*bottom: 0px;
+	left: 0px;*/
 }
 
 .parent{
@@ -17,8 +21,8 @@ div{
 
 p{
 	position: static;
-	margin-left: 50px;
-	margin-top: -20px;
+	/*margin-left: 50px;*/
+	/*margin-top: -20px;*/
 }
 
 input[name="firstname"]{
@@ -29,9 +33,11 @@ input[name="firstname"]{
 /*off-canvas /*positioning elements not viewable*/
 
 strong {
-	position: relative;
+	/*position: absolute;
+	top: 10px;
+	left: 10px;
 	/*left: 50px;*/
-	top: 100px;
-	left: 100px;
+	/*top: 100px;
+	left: 100px;*/
 	background-color: yellow;
 }
