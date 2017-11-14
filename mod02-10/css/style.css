@@ -58,13 +58,14 @@
 	background-color: #b2d6ff;
 	float: left;
 	margin: 20px 1.16%;
+	position: relative;
 }
 
-.avatar{
-	width: 60px;
-	height: 60px;
+.avatar > img { 
+	width: 70px;
+	height: 70px;
 	background-color: #d6e9fe;
-	border-radius: 50%;
+	border-radius: 10%;
 	margin: 25px;
 	float: left;
 }
@@ -85,5 +86,45 @@ best practice to clear floats
 	content: "";
 	clear: both;
 	display: block;
+
+}
+
+/**
+css work around
+**/
+
+/*managing text overflow*/
+.block-with-text{
+	overflow: hidden;
+	position: relative;
+	/*font-size = 16px; 16px + 8px = 24px*/
+	line-height: 1.2em; 
+	max-height: 3.6em;
+	text-align: justify;
+	margin-right: -1em;
+	padding-right: 30px;
+}
+
+.block-with-text:before {
+	content: "...";
+	position: absolute;
+	right: 17px;
+	bottom: 0;
+}
+
+.block-with-text:after {
+	content: "";
+	position: absolute;
+	right: 17px;
+	width: 1em;
+	height: 1em;
+	margin-top: 0.2em;
+	background: white;
+}
+
+.read-more{
+	position: absolute;
+	right: 18px;
+	bottom: 16px;
 
 }
