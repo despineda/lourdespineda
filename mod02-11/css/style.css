@@ -13,11 +13,14 @@
 	width: 900px;
 	margin: 0 auto;
 	/*border: 1px solid;*/
-	background-color: #eaedf0;
+	background-color: black;
 }
-.menu{
-	height: 100px;
-	background-color: #b2d6ff; /*blue*/
+
+
+.bar{
+	height: 300px;
+	width: 700px;
+	background-color: black; /*blue*/
 }
 
 
