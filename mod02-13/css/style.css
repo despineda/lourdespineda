@@ -1,0 +1,204 @@
+.colorfg{
+	color: white; /*font color*/
+}
+
+
+.colorbg{
+	background-color: black;
+}
+
+
+.name{
+	background-color: mediumaquamarine;
+
+}
+
+.rgb{
+	background-color: rgb(0, 0,255);/*rgb = red, green, blue 
+											built in function*/
+}
+
+
+.rgba{
+	background-color: rgba(255, 0, 0, 0.5); /*rgba = red, green, blue, alpha*/
+}
+
+.hex{
+	background-color: #012;
+}
+
+.hsl{
+	/*hue, 0-360 degrees*/
+	/*saturation, 0% - 100%*/
+	/*lightness, 0% black, 50%normal, 100%white*/
+	color: hsl(0, 0%, 100%);
+}
+
+
+.hsla{
+	background-color: hsla(30, 50%, 78%. 0.5);
+}
+
+.opacity{
+	background-color: red;
+	opacity: 1.0; 
+}
+
+
+/*Fonts*/
+
+.bold{
+	font-weight: bold;
+}
+
+
+.italic{
+	font-style: italic;
+}
+
+
+.uppercase{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.lowercase{
+	text-transform: lowercase;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+
+.underline{
+	text-decoration: underline;
+}
+
+
+.linethrough{
+	text-decoration: line-through;
+}
+
+
+.none{
+	/*commonly used to modify anchor*/
+	text-decoration: none;
+}
+
+
+.lineheight{
+	line-height: 2;
+}
+
+.letterspacing{
+	/*for readability . . for letter space*/
+	letter-spacing: 2px;
+}
+
+
+.wordspacing{
+	/*for word spacing*/
+	word-spacing: 1em;
+}
+
+
+.alignleft{
+
+	/*text align*/
+	text-align: left;
+}
+
+
+.alignright{
+	text-align: right;
+}
+
+
+.aligncenter{
+	text-align: center;
+}
+
+
+.alignjustify{
+	text-align: justify;
+}
+
+
+.indent{
+	text-indent: 20px;
+}
+
+
+.textshadow{
+	/*for text shadow*/
+	text-shadow: 10px 10px 20px #000;
+}
+
+
+.localfont{
+	/*machine dependent fonts*/
+	/*windows, linuz, macosx*/
+	font-family: 'Times New Roman';
+}
+
+
+/*downloaded font*/
+@font-face{
+	font-family: 'computer-speak';
+	src:url('../font/computer-speak/Computer Speak v0.3.ttf');
+}
+
+
+/*using trutype font*/
+.downloadedfont{
+	font-family: 'computer-speak';
+}
+
+
+.serif{
+	font-family: 'Georgia', serif;
+}
+
+
+.sansserif{
+	font-family: 'Arial', sans-serif;
+}
+
+
+.monosspace{
+	font-family: 'Courier', monospace;
+}
+
+
+.cursive{
+	font-family: 'Comic Sans MS', cursive;
+}
+
+
+.fantasy{
+	font-family: 'Impact', fantasy;
+}
+
+
+.pixels{
+	font-size: 20px;
+}
+
+
+.percent{
+	/*responsive web design*/
+	font-size: 200%; 
+}
+
+
+.ems{
+	/*1em = 16px*  . . defended to default font size*/
+	font-size: 1em;
+}
+
+
+.boxshadow{
+	/*for shadow*/
+	box-shadow: 40px 20px 5px #888;
+}
