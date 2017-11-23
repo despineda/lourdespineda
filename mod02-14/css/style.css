@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.body{
+	background-color: lightgray;
+}
+
+
+.wrapper{
+	background-color: #fff; /*white*/
+	width: 80%;
+	padding: 20px;
+
+}
+
+.item1,
+.item2{
+	height: 150px;
+	width: 150px;
+	background-color: gray; 
+}
+
+.item2{
+	border-left: 10px solid blue;
+	border-right: 10px solid blue;
+
+}
+
+.item3{
+	border: 1px solid #000;
+	border-radius: 0 10px 0 10px;
+	padding: 10px;
+	display: inline;
+}
+
+.item4,
+.item5{
+	background-color: blue;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+
+}
+
+.item5{
+	text-align: center;
+	line-height: 150px;
+	color: white;
+}
+
+
+.item6,
+.item7,
+.item8 {
+	width: 600px;
+	height: 400px;
+	border: 1px solid #000;
+	position: relative;
+}
+
+
+.item6 > img {
+	width: 80px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+
+.item7 > img, 
+.item8 > img{
+	width: 80px;
+}
+
+
+.item7 > img[src*='sun'],
+.item8 > img[src*='sun']{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.item7 > img[src*='coconut'],
+.item8 > img[src*='coconut']{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.item8 > p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate (-50%, -50%);
+}
+
+
+.item9{
+	width: 150px;
+	border-radius: 50%;
+}
+
+
+.item10{
+	border: 1px solid #000;
+	height: 100px;
+	width: 400px;
+	position: relative;
+}
+
+.item10 > img {
+	width: 100px;
+	border-radius: 50%;
+	display: inline;
+}
+
+
+.item10 > span{
+	line-height: 100px;
+	position: absolute;
+}
+
+
+.item11,
+.item12{
+	width: 400px;
+	border: 1px solid #000;
+	text-align: center;
+}
+	
+
+.item11 > img,
+.item12 > img {
+	width: 50px;
+
+}
+
+.item11 > h2,
+.item12 > h2{
+	margin: 15px auto;
+}
+
+
+.item12 > div{
+	background-color: salmon;
+}
+
+table{
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table,
+th,
+td{
+	border: 1px solid #000;
+
+}
+
+th{
+	background-color: #000;
+	
+}
