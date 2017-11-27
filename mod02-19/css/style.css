@@ -1,0 +1,20 @@
+.well,
+.btn,
+.panel{
+	border-radius: 0;
+}
+
+.well{
+	background-color: gray;
+}
+
+.navbar{
+	background-color: lightblue;
+	border-color: black;
+}
+
+@media(min-width: 768px){
+}
+.navbar{
+	border-radius: 0;
+}
