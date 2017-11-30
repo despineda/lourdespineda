@@ -34,9 +34,12 @@ li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height:450px;
+    min-height:400px;
+    width: 1150px;
+    margin-left: 56px;
 }
 
+/*image title monologist*/
 .title{
     background-image: url('../image/title.jpg');
     background-repeat: no-repeat;
@@ -45,24 +48,93 @@ li a:hover {
 
 }
 
+
+
 /*log in container*/
 .login{
     background-color: #9B9DA2;
+    border-style: line;
     border-radius: 4%;
-    margin: 22px;
-    margin-left: 992px;
-    height: 400px;
+    margin: 12px;
+    margin-left: 956px;
+    height: 350px;
     width: 250px;
 }
 
+/*signup container*/
+.signup{
+    background-color: #9B9DA2;
+    border-style: line;
+    border-radius: 4%;
+    margin-left: 695px;
+    margin-top: -369px;
+    height: 350px;
+    width: 250px;
+}
+
+
+/*****text section*****/
 /*text sign in*/
 .in{
     font-size: 150%;
     font-family: Arial;
-    margin-left: 42px;
-    padding: 40px;
+    margin-left: 60px;
+    padding: 20px;
 }
 
+
+/*text signup*/
+.up{
+    font-size: 150%;
+    font-family: Arial;
+    margin-left: 56px;
+    padding: 20px;
+}
+
+
+/*text username*/
+.user{
+  font-size: 90%;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+/*text pass*/
+.pass{
+  font-size: 90%;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+/*text firstname*/
+.firstname{
+  font-size: 90%;
+  margin-top: -20px;
+  margin-left: 30px;
+  margin-bottom: -2px;
+}
+
+/*last name text*/
+.lastname{
+  font-size: 90%;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+/*username test*/
+.username2{
+  font-size: 90%;
+  margin-top: 11px;
+  margin-left: 30px;
+} 
+
+.email{
+  font-size: 90%;
+  margin-top: 12px;
+  margin-left: 30px;
+}
+
+/*****textbox section*****/
 /*username textbox*/
 .username{
     height: 20px;
@@ -75,9 +147,47 @@ li a:hover {
     height: 20px;
     width: 150px;
     background-color: #434446;
-    margin: 20px;
+    margin: -7px;
     margin-left: 50px;
+
 }
+
+
+.first{
+    height: 20px;
+    width: 182px;
+    background-color: #434446;
+    margin-left: 30px;
+    margin-bottom: -2px;
+}
+
+.last{
+    height: 20px;
+    width: 182px;
+    background-color: #434446;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: -22px;
+}
+
+.user2{
+    height: 20px;
+    width: 182px;
+    background-color: #434446;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: -22px;
+}
+
+.email2{
+    height: 20px;
+    width: 182px;
+    background-color: #434446;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: -22px;
+}
+
 
 /*button from http://css3buttongenerator.com/*/
 .btn {
@@ -93,10 +203,12 @@ li a:hover {
   font-family: Arial;
   color: #ffffff;
   font-size: 10px;
-  padding: 10px 20px 10px 20px;
+  width: 160px;
+  height: 30px;
   text-decoration: none;
-  margin: -5px;
-  margin-left: 85px;
+  margin: 10px;
+  margin-left: 50px;
+
 }
 
 .btn:hover {
@@ -108,3 +220,48 @@ li a:hover {
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+
+.submit{
+  margin-left: 2px;
+  margin-top: 6px;
+}
+
+
+.btn2 {
+  background: #123852;
+  background-image: -webkit-linear-gradient(top, #123852, #2980b9);
+  background-image: -moz-linear-gradient(top, #123852, #2980b9);
+  background-image: -ms-linear-gradient(top, #123852, #2980b9);
+  background-image: -o-linear-gradient(top, #123852, #2980b9);
+  background-image: linear-gradient(to bottom, #123852, #2980b9);
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  width: 160px;
+  height: 30px;
+  text-decoration: none;
+  margin: 4px;
+  margin-left: 42px;
+
+}
+
+.btn2:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.create{
+  margin-left: 2px;
+  margin-top: 6px;
+}
+
+
+
