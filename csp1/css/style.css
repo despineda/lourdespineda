@@ -36,7 +36,8 @@ li a:hover {
     position: relative;
     min-height:400px;
     width: 1150px;
-    margin-left: 56px;
+    margin-left: 38px;
+    
 }
 
 /*image title monologist*/
@@ -45,18 +46,19 @@ li a:hover {
     background-repeat: no-repeat;
     background-size: contain;
     min-height:150px;
+    height: 160px;
 
 }
 
 
-
+/*CONTAINERS*/
 /*log in container*/
 .login{
     background-color: #9B9DA2;
     border-style: line;
     border-radius: 4%;
     margin: 12px;
-    margin-left: 956px;
+    margin-left: 938px;
     height: 350px;
     width: 250px;
 }
@@ -66,14 +68,60 @@ li a:hover {
     background-color: #9B9DA2;
     border-style: line;
     border-radius: 4%;
-    margin-left: 695px;
+    margin-left: 670px;
     margin-top: -369px;
     height: 350px;
     width: 250px;
 }
 
+.book1{
+  border-style: double;
+  border-color: #9B9DA2;
+  height: 270px;
+  width:200px;
+  margin-left: 38px;
+  margin-top:-5px;
+}
+
+.book2{
+  border-style: double;
+  border-color: #9B9DA2;
+  height: 270px;
+  width:200px;
+  margin-left: 290px;
+  margin-top:-276px;
+}
+
+.topbook{
+  border-style: double;
+  border-color: #9B9DA2;
+  height: 300px;
+  width: 1145px;
+  margin-left: 38px;
+}
+
+.bestpoem2{
+  border-style: double;
+  border-color: #9B9DA2;
+  height: 350px;
+  width: 1145px;
+  opacity: 0.3;
+  margin-left: 38px;
+}
+
+
 
 /*****text section*****/
+.qoute{
+  font-size: 170%;
+  margin-left:163px;
+  padding-top: 180px;
+  font-family: impact;
+  letter-spacing: 3px;
+  opacity:0.7;
+
+  }
+
 /*text sign in*/
 .in{
     font-size: 150%;
@@ -121,7 +169,7 @@ li a:hover {
   margin-left: 30px;
 }
 
-/*username test*/
+/*username text*/
 .username2{
   font-size: 90%;
   margin-top: 11px;
@@ -132,6 +180,30 @@ li a:hover {
   font-size: 90%;
   margin-top: 12px;
   margin-left: 30px;
+}
+
+.best{
+  font-size: 125%;
+  letter-spacing: 3px;
+  margin-top: -315px;
+  margin-left: 38px;
+  font-family: impact;
+} 
+
+.top{
+  font-size:125%;
+  font-family: impact;
+  letter-spacing: 3px;
+  margin-left:38px;
+  margin-top:60px;
+}
+
+.bestpoem{
+  font-size: 125%;
+  font-family: impact;
+  letter-spacing: 3px;
+  margin-left: 38px;
+  margin-top: 500px;
 }
 
 /*****textbox section*****/
@@ -188,7 +260,110 @@ li a:hover {
     margin-top: -22px;
 }
 
+.auth1{
+  font-size: 80%;
+  margin-left: 55px;
+  margin-top: 5px;
+}
 
+.vote1{
+  font-size: 70%;
+  margin-left: 57px;
+  margin-top: -10px;
+}
+
+.p1{
+  font-size: 110%;
+  margin-left:150px;
+  margin-top: -165px;
+  width: 1038px;
+  text-align: justify;
+}
+
+
+
+.auth2{
+  font-size: 80%;
+  margin-left: 1108px;
+  margin-top: 5px;
+}
+
+.vote2{
+  font-size: 70%;
+  margin-left: 1112px;
+  margin-top: -8px;
+  
+}
+.p2{
+  font-size: 110%;
+  margin-left:40px;
+  margin-top: -165px;
+  width: 1038px;
+  text-align: justify;
+}
+
+
+.auth3{
+  font-size: 80%;
+  margin-left: 49px;
+  margin-top: 5px;
+}
+
+.vote3{
+  font-size: 70%;
+  margin-left: 58px;
+  margin-top: -8px;
+  
+}
+.p3{
+  font-size: 110%;
+  margin-left:145px;
+  margin-top: -165px;
+  width: 1038px;
+  text-align: justify;
+}
+
+
+.auth4{
+  font-size: 80%;
+  margin-left: 1111px;
+  margin-top: 5px;
+}
+
+.vote4{
+  font-size: 70%;
+  margin-left: 1111px;
+  margin-top: -8px;
+  
+}
+.p4{
+  font-size: 110%;
+  margin-left:42px;
+  margin-top: -165px;
+  width: 1038px;
+  text-align: justify;
+}
+
+
+.auth5{
+  font-size: 80%;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+
+.vote5{
+  font-size: 70%;
+  margin-left: 56px;
+  margin-top: -8px;
+  
+}
+.p5{
+  font-size: 110%;
+  margin-left:145px;
+  margin-top: -165px;
+  width: 1038px;
+  text-align: justify;
+}
 /*button from http://css3buttongenerator.com/*/
 .btn {
   background: #123852;
@@ -265,3 +440,81 @@ li a:hover {
 
 
 
+/*for images*/
+.b1{
+  width: 170px;
+  height: 240px;
+  margin-left: 14px;
+  margin-top: 15px;
+}
+
+.b2{
+  width: 170px;
+  height: 240px;
+  margin-left: 14px;
+  margin-top: 15px;
+}
+
+.b3,
+.b4,
+.b5,
+.b6,
+.b7{
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+}
+
+.b3{
+  margin-left: 14px;
+  
+}
+
+.b4{
+  margin-left: 27px;
+  
+}
+
+.b5{
+  margin-left: 25px;
+}
+
+.b6{
+  margin-left: 25px;
+}
+
+/*image outside container*/
+.b03{
+  width: 95px;
+  height: 110px;
+  margin-left: 38px;
+  margin-top: 50px;
+}
+
+.b04{
+  width: 95px;
+  height: 110px;
+  margin-left:1090px;
+  margin-top: 50px;
+}
+
+.b05{
+  width: 95px;
+  height: 110px;
+  margin-left: 38px;
+  margin-top: 40px;
+}
+
+.b06{
+  width: 95px;
+  height: 110px;
+  margin-left:1090px;
+  margin-top: 50px;
+}
+
+.b07{
+  width: 95px;
+  height: 110px;
+  margin-left: 38px;
+  margin-top: 40px;
+}
