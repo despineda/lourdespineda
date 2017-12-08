@@ -1,36 +1,42 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #D5D7DA; /*navbar background color*/
-}
+/*mobile device*/
+@media only screen and (max-width: 400px){
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #D5D7DA; /*navbar background color*/
+      width: 100%;
+    }
+
+    li {
+      float: left;
+      display: inline-block;
+      width: inherit;
+    }
 
 
-li {
-    float: left;
-}
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      font-style: fantasy;
+      font-size: 20px;
+      padding: 15px 16px;
+      text-decoration: none;
+        }
 
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    font-style: fantasy;
-    font-size: 20px;
-    padding: 15px 16px;
-    text-decoration: none;
-}
-
-
-li a:hover {
-    background-color: #111;
+    li a:hover {
+        background-color: #111;
+      }
 }
 
 
 /*for banner page*/
 .banner{
-    background-image: url('../image/banner.jpg');
+    background-image: url('../image/ban2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -38,7 +44,8 @@ li a:hover {
     width: 1150px;
     margin-left: 38px;
     
-}
+  }
+
 
 /*image title monologist*/
 .title{
@@ -48,8 +55,7 @@ li a:hover {
     min-height:150px;
     height: 160px;
 
-}
-
+  }
 
 /*CONTAINERS*/
 /*log in container*/
@@ -72,7 +78,7 @@ li a:hover {
     margin-top: -369px;
     height: 350px;
     width: 250px;
-}
+  }
 
 .book1{
   border-style: double;
@@ -105,9 +111,58 @@ li a:hover {
   border-color: #9B9DA2;
   height: 350px;
   width: 1145px;
-  opacity: 0.3;
   margin-left: 38px;
+  margin-top: -10px;
 }
+
+
+/****for index2****/
+.container01{
+  border-style: double;
+  border-color: #9B9DA2;
+  height: 350px;
+  width: 1000px;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+.container02{
+  border-style: double;
+  border-color: #9B9DA2;
+  height: 350px;
+  width: 1000px;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+
+.container03{
+  border-style: double;
+  border-color: #9B9DA2;
+  height: 350px;
+  width: 1000px;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+.container04{
+  border-style: double;
+  border-color: #9B9DA2;
+  height: 350px;
+  width: 1000px;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+.container05{
+  border-style: double;
+  border-color: #9B9DA2;
+  height: 350px;
+  width: 1000px;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
 
 
 
@@ -203,7 +258,16 @@ li a:hover {
   font-family: impact;
   letter-spacing: 3px;
   margin-left: 38px;
-  margin-top: 500px;
+  margin-top: 200px;
+}
+
+
+/****for index2****/
+.romance{
+  font-size: 300%;
+  font-family: impact;
+  margin-left: 460px;
+  letter-spacing: 12px;
 }
 
 /*****textbox section*****/
@@ -364,6 +428,48 @@ li a:hover {
   width: 1038px;
   text-align: justify;
 }
+
+/***paragraph for index2***/
+  .pa1{
+  font-size: 102%;
+  margin-left:225px;
+  margin-top: -260px;
+  width: 760px;
+  text-align: justify;
+}
+
+ .pa2{
+  font-size: 102%;
+  margin-left:225px;
+  margin-top: -260px;
+  width: 760px;
+  text-align: justify;
+}
+
+.pa3{
+  font-size: 102%;
+  margin-left:225px;
+  margin-top: -260px;
+  width: 760px;
+  text-align: justify;
+}
+
+.pa4{
+  font-size: 102%;
+  margin-left:225px;
+  margin-top: -260px;
+  width: 760px;
+  text-align: justify;
+}
+
+.pa5{
+  font-size: 102%;
+  margin-left:225px;
+  margin-top: -260px;
+  width: 760px;
+  text-align: justify;
+}
+
 /*button from http://css3buttongenerator.com/*/
 .btn {
   background: #123852;
@@ -483,6 +589,72 @@ li a:hover {
   margin-left: 25px;
 }
 
+/*image poem*/
+
+.po1,
+.po2,
+.po3,
+.po4{
+  width: 250px;
+  height: 320px;
+  margin-top: 15px;
+}
+
+.po1{
+  margin-left: 42px;
+}
+
+.po2{
+  margin-left: 15px;
+}
+
+
+.po3{
+  margin-left: 15px;
+}
+
+.po4{
+  margin-left: 15px;
+}
+
+/****image for index2 inside container****/
+.rom1{
+  width: 200px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.rom2{
+  width: 200px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.rom3{
+  width: 200px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.rom4{
+  width: 200px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.rom5{
+  width: 200px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+
+
 /*image outside container*/
 .b03{
   width: 95px;
@@ -517,4 +689,133 @@ li a:hover {
   height: 110px;
   margin-left: 38px;
   margin-top: 40px;
+}
+
+
+/****images for index2****/
+
+.ro1 {
+  width: 130px;
+  height: 300px;
+  margin-left: 150px;
+  margin-top: 50px;
+  opacity: 0.6;
+}
+
+.ro2 {
+  width: 155px;
+  height: 335px;
+  margin-left: 285px;
+  margin-top: -700px;
+  opacity: 0.6;
+}
+
+.ro3{
+  width: 165px;
+  height: 370px;
+  margin-left: 445px;
+  margin-top: -700px;
+  opacity: 0.6;
+}
+
+
+.ro4{
+  width: 165px;
+  height: 370px;
+  margin-left: 615px;
+  margin-top: -374px;
+  float: left;
+  opacity: 0.6;
+}
+
+.ro5{
+  width: 155px;
+  height: 335px;
+  margin-left: 785px;
+  margin-top: -357px;
+  opacity: 0.6;
+  float: left;
+  opacity: 0.6;
+}
+
+.ro6 {
+  width: 130px;
+  height: 300px;
+  margin-left: 945px;
+  margin-top: -340px;
+  float: left;
+  opacity: 0.6;
+}
+
+
+/*for mobile*/
+@media only screen and (min-width: 401px){
+  
+   ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #D5D7DA; /*navbar background color*/
+      width: 100%;
+    }
+
+    li {
+      float: left;
+      display: inline-block;
+      width: 50%;
+    }
+
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      font-style: fantasy;
+      font-size: 20px;
+      padding: 15px 16px;
+      text-decoration: none;
+        }
+
+
+    li a:hover {
+        background-color: red;
+      }
+ 
+}
+  
+
+/*for desktop devices*/
+@media only screen and (min-width: 961px){
+ ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #D5D7DA; /*navbar background color*/
+      width: 100%;
+    }
+
+    li {
+      float: left;
+      display: inline-block;
+      width: 16.6%;
+    }
+
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      font-style: fantasy;
+      font-size: 20px;
+      padding: 15px 16px;
+      text-decoration: none;
+        }
+
+
+    li a:hover {
+        background-color: #111;
+      }
+
 }
