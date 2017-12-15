@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>loops - Chessboard Generator</title>
+	<title>JavaScript Programming - Review</title>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -13,19 +13,31 @@
 <body>
 
 	<div id="mainWrapper" class="wrapper clear">
-		
-		<h1 id="header1">Chessboard Generator</h1>
-		<hr>
 
-		<div class="form">
-			<form name="inputForm">
-				<input type="text" name="num" id="num" placeholder="Enter a number">
-				<input type="text" name="step" id="step" placeholder="Enter a step">
-				<input type="button" value="generate" onclick="generateTable()">
-			</form>
-		</div>
+		<p id="display">0</p>
 
-		
+		<input type="button" id="divide" value="/" onclick="updateDisplay(this.value)">
+		<input type="button" id="multiply" value="*" onclick="updateDisplay(this.value)">
+		<input type="button" id="add" value="+" onclick="updateDisplay(this.value)">
+		<br>
+		<input type="button" id="num7" value="7" onclick="updateDisplay(this.value)">
+		<input type="button" id="num8" value="8" onclick="updateDisplay(this.value)">
+		<input type="button" id="num9" value="9" onclick="updateDisplay(this.value)">
+		<br>
+		<input type="button" id="num4" value="4" onclick="updateDisplay(this.value)">
+		<input type="button" id="num5" value="5" onclick="updateDisplay(this.value)">
+		<input type="button" id="num6" value="6" onclick="updateDisplay(this.value)">
+		<br>
+		<input type="button" id="num1" value="1" onclick="updateDisplay(this.value)">
+		<input type="button" id="num2" value="2" onclick="updateDisplay(this.value)">
+		<input type="button" id="num3" value="3" onclick="updateDisplay(this.value)">
+		<br>
+		<input type="button" id="num0" value="0" onclick="updateDisplay(this.value)">
+		<input type="button" id="subtract" value="-" onclick="updateDisplay(this.value)">
+		<input type="button" id="equals" value="=" onclick="computeExpression()">
+		<br>
+		<input type="button" id="clear" value="clr" onclick="clearDisplay()">
+		<input type="button" id="del" value="del" onclick="deleteLastChar()">
 
 	</div> <!-- /.wrapper -->
 
