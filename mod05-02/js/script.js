@@ -1,23 +1,27 @@
-function redfunc(){
-	document.getElementById('red-box').style.backgroundColor = "red";
+function redFunc() {
+	document.getElementById("red-box").style.backgroundColor = "red";
 }
 
-function redfunc(){
-	document.getElementById('orange-box').style.backgroundColor = "orange";
+function orangeFunc() {
+	document.getElementById("orange-box").style.backgroundColor = "orange";
 }
 
-function redfunc(){
-	document.getElementById('yellow-box').style.backgroundColor = "yellow";
+function yellowFunc() {
+	document.getElementById("yellow-box").style.backgroundColor = "yellow";
 }
 
-function redfunc(){
-	document.getElementById('green-box').style.backgroundColor = "green";
+function greenFunc() {
+	document.getElementById("green-box").style.backgroundColor = "green";
 }
 
-function redfunc(){
-	document.getElementById('purple-box').style.backgroundColor = "purple";
+function blueFunc() {
+	document.getElementById("blue-box").style.backgroundColor = "blue";
 }
 
-function redfunc(){
-	document.getElementById('blue-box').style.backgroundColor = "red";
+function indigoFunc() {
+	document.getElementById("indigo-box").style.backgroundColor = "indigo";
+}
+
+function violetFunc() {
+	document.getElementById("violet-box").style.backgroundColor = "violet";
 }

@@ -1,52 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>What Javascript Can Do</title>
+	<title>What JavaScript Can Do</title>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
+
 	<div class="wrapper">
-		<h1 id="elements">What Javascript Can Do?</h1>
+
+		<h1 id="elements">What JavaScript can do?</h1>
 		<hr>
 
-		function
-			-block of codes that will do a certain process.
-			-single entity
-			-reusable
-			-avoids retyping redundant codes
-
-		<h2>Javascript can hide/show HTML elements.</h2>
+		<h2>JavaScript can hide/show HTML elements.</h2>
 		<button onclick="hideAll()">Hide All</button>
 		<br>
 		<button onclick="showAll()">Show All</button>
 
 		<div id="all">
-			<h2 id="content">Javascript can change HTML content</h2>
-			<button>Change HTML Content</button>
+			<h2 id="content">JavaScript can change HTML content.</h2>
+			<button onclick="changeContent()">Change HTML Content</button>
 
-			<h2>Javascript can change HTML attributes.</h2>
-			<button>Change Image Height</button>
-			<button>Change Image</button>
+			<h2>JavaScript can change HTML attributes.</h2>
+			<button onclick="changeAttr()">Change Image Height</button>
+			<button onclick="changeImage()">Change Image</button>
 			<br>
 			<img id="attr" src="image/image1.jpg" height="230">
 
-			<h2  id="css">Javascirpt can change HTML styles.</h2>
-			<button>Change Style</button>
+			<h2 id="css">JavaScript can change HTML styles.</h2>
+			<button onclick="changeColor()">Change Style</button>
 
-			<h2 id="elements">Javascript can get and manipulate HTML elements</h2>
+			<h2 id="elements">JavaScript can get and manipulate HTML elements</h2>
 			<form method="" action="">
 				<input id="input1" type="number" value="1">+
-				<input id="input2" type="number" value="2">=
+				<input id="input2" type="number" value="3">=
 				<span id="sum"></span>
 			</form>
 			<br>
-			<button>Computer Sum</button>
+			<button onclick="computeSum()">Compute Sum</button>
 
 		</div>
 
@@ -54,28 +50,34 @@
 
 		<button onclick="alert('This is inline.')">Inline</button>
 
-		<hr>
+		<hr>s
 
 		<h3 id="heading">This is a heading</h3>
-
+		
 	</div>
 
 	<script>
 		function hideAll() {
-			document.getElementById('all').style.display = 'none';
+			document.getElementById("all").style.display = "none";
 		}
 
 		function showAll() {
-			document.getElementById('all').style.display = 'block';
+			document.getElementById("all").style.display ="block";
 		}
 
-		function 
+		function changeContent() {
+			document.getElementById("content").innerHTML = "Ma.Lourdes F. Pineda";
+		}
 
+		function changeAttr() {
+			document.getElementById("attr").height = 100;
+		}
 
-		document.getElementById('heading').innerHTML = "Javascript";
+		document.getElementById("heading").innerHTML = "JavaScript";
+
 	</script>
 
-
+	<script src="js/script.js"></script>
 
 </body>
 </html>
