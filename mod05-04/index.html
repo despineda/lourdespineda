@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avtivity</title>
+</head>
+<body>
+
+ <label for="guess">Your Guess:</label>
+ <input type="text" id="guess" />
+ <input type="button" onclick="yourGuess()" value="submit" /><br />
+<input id="cheat" type="checkbox" value="cheat" onclick="showNumberToGuess()" />
+<label for="cheat">Give up?</label>
+ <div id="cheatShow" style="display: none;">
+  <input id="numberToGuess" type="text" />
+  <label for="numberToGuess">Number to guess</label>
+ </div>
+
+ <legend> Output </legend>
+ <textarea id="output" name="output" rows="5" style="width: 40%;"></textarea>
+
+
+<script type="text/javascript">
+function yourGuess() {
+    guess = document.getElementById("guess").value;
+    guesses = document.getElementById("output");
+
+    if (guess == numToGuess) {
+        guesses.value = guesses.value + "\r" + "Korek! ("+guess+")";
+    } else if (guess > numToGuess) {
+        guesses.value = guesses.value + "\r" + "Too high!("+guess+")";
+    } else {
+        guesses.value = guesses.value + "\r" + "Too low!("+guess+")";
+    }
+}
+
+function showNumberToGuess() {
+    if (document.getElementById('cheat').checked) {
+        document.getElementById('numberToGuess').value = numToGuess;
+        document.getElementById('cheatShow').style.display = 'inline';
+    } else {
+        document.getElementById('numberToGuess').value = '';
+        document.getElementById('cheatShow').style.display = 'none';
+    }
+}
+
+var numToGuess = Math.floor(Math.random()*5);
+</script>
+
+<script>
+var x = 1;
+
+while(x <4){
+	var num = prompt();
+	if (num===3){
+		alert('correct');
+}else if (num <3){
+	alert('higher');
+}else{
+	alert('Lower');
+	};
+x++
+}
+	
+</script>
+
+
+
+</body>
+</html> 

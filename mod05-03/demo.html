@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Intro</title>
+</head>
+<body>
+	
+<!-- "change color"
+<h1 id="intro">JavaScript Introduction</h1>
+<script>
+	function changeColor (){
+		document.getElementById('intro').style.changeColor = "blue";
+	}
+
+<button onclick="changeColor()">Click Me</button>
+
+</script> 
+-->
+
+<!-- getname button
+<script type="text/javascript">
+	function getName(){
+		var fname = document.getElementById('fname').value;
+		alert(fname);
+	}
+</script>
+	
+Enter Name: <input type="text" id="fname">
+<button onclick='getName()'>Go!</button>
+ -->	
+
+
+
+ <script type="text/javascript">
+	function getCode(){
+		var code = document.getElementById('code').value;
+		document.getElementById('display').innerHTML = code;
+	}	
+</script>
+<input type="text" id="code" onchange="getCode()">
+
+<h2 id="display">Show Here</h2>
+
+
+</body>
+</html>
