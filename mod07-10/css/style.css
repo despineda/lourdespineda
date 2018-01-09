@@ -1,0 +1,58 @@
+body {
+	/*background-color: black;*/
+}
+
+#container {
+	/*background-color: lightgrey;*/
+	width: 40%;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+.completed {
+	color: grey;
+	text-decoration: line-through;
+}
+
+/*delete button*/
+span{
+	background-color: red;
+	margin:  5px;
+	width: 0;
+	opacity: 0;
+	transition: 0.2s linear;
+	display: inline-block;
+}
+
+li:hover span {
+	width: 20px;
+	opacity: 1.0;
+}
+
+.del{
+	width: 17px;
+	height: 17px;
+}
+
+.container2{
+	width: 500px;
+	height: 45px;
+	background-color: skyblue;
+	margin-top: -21px;
+}
+
+.text{
+	margin-top: 20px;
+	margin-left: 23px;
+}
+
+@media only screen and (max-width: 500px) {
+    body 
+    .container2{
+	width: 500px;
+	height: 45px;
+	background-color: skyblue;
+	margin-top: -21px;
+}
+
+    {
