@@ -12,17 +12,33 @@ require_once 'assets/lib/twelve_days.php';
 
 	<title><?php echo getTitle(); ?> Lyrics</title>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="">
 
 </head>
-<body>
+<body style="background-color:#F95E4C;">
+
+<h1> <font color="#66E0F4">12 Days Of Christmas!</font></h1>
 
 	<?php
 
-	echo getLyrics(1);
+	echo getLyrics();
 
 	?>
 
-	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		// get all day containers
+		var days = document.querySelectorAll('[id^="day"]'); // array
+
+		// hide all day containers except first day
+		days.forEach(function(value, index) {
+			if (index > 0)
+				document.getElementById('day' + index).style.display = 'none';
+		});
+	</script>
+
+	<script type="text/javascript" src="assets/lib/jquery-3.2.1.min.js"></script>
+
+	<script type="text/javascript" src="assets/js/animation.js"></script>
+
 </body>
 </html>
