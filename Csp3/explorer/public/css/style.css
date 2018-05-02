@@ -1,0 +1,313 @@
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+    .avatar{
+        border-radius: 0%;
+        border-style: solid;
+        border-color: rgba(102, 51, 0);
+        border-width: 2px;
+        max-width: 150px;
+    }
+
+    .main{
+        background-color: rgba(179, 89, 0, 0.8);
+        min-height: 100vh;
+    }
+
+    /*main homepage*/
+    .banner {
+        background-image: url("/images/banner.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .navbar{
+        background:transparent;
+    }
+
+    /*brand name*/
+    .navbar .container .navbar-header .brand .navbar-brand {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 23px;
+        color: white;
+        /*color: rgba(120, 66, 18);*/
+    }
+    .navbar .container .navbar-header .brand2 .navbar-brand {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 23px;
+        color: white;
+    }
+
+    /*right navbar font*/
+    .navbar .navright2 .navbar-nav li a{
+        font-size: 16px;
+        color: white;
+        font-family: 'Signika Negative', sans-serif;
+    }
+
+    /*left navbar font*/
+    .navbar .navbar-nav li a{
+        color: white;
+        font-size: 16px;
+        font-family: 'Signika Negative', sans-serif;
+
+    }
+
+    /*drop down menu for admin and users*/
+    .navbar .dropdown .dropdown-menu li a{
+        background-color: rgba(179, 89, 0, 0.8);
+    }
+
+
+    /*login and register font*/
+    .navbar .navright .navbar-nav li a{
+        font-size: 16px;
+        font-family: 'Berkshire Swash', cursive;
+        color: white;
+    }
+
+    .list-group li a{
+        font-family: 'Vidaloka', serif;
+        font-size: 18px;
+        color: black;   
+    }
+
+    /*teaxtbox search*/
+    .form-control2{
+        height: 28px;
+        width: 558px;
+        margin-left: 2px;
+    }
+
+    .title{
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 80px;
+        text-align: center;
+        text-shadow: 5px 5px #000000;
+        letter-spacing: 2px;
+        color: rgba(120, 66, 18);
+        margin-top: 100px;
+        float: center;
+    }
+
+    .titleHome{
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 110px;
+        text-align: center;
+        text-shadow: 5px 7px #000000;
+        letter-spacing: 2px;
+        color: rgba(120, 66, 18);
+        margin-top: 100px;
+        float: center;
+    }
+
+    /*login section*/
+    .panel-default1{
+        background-color: rgba(247, 220, 111, 0.6);
+        margin-left: 50px;
+        margin-top: 50px;
+        border-style: line;
+        border-color: rgba(120, 66, 18);
+    }
+
+    /*register section*/
+    .panel-default2{
+        background-color: rgba(247, 220, 111, 0.6);
+        margin-left: 50px;
+        margin-top: -5px;
+        border-style: line;
+        border-color: rgba(120, 66, 18);   
+    }
+
+    /*bg for container*/
+    .container .panel-default{
+        background-color: rgba(247, 220, 111, 0.4);
+        border-style: ridge;
+        border-width: 6px;
+        border-color: rgba(102, 51, 0);
+    }
+    .panel .panel-heading{
+        background-color: transparent;
+    }
+
+    /*font for login label*/
+    .form-group{
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 12px;
+        color: rgba(110, 44, 0);
+        letter-spacing: 2px;
+    }
+    .panel-heading1{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 17px;
+        color: rgba(110, 44, 0, 0.8);
+    }
+    .btn2{
+        font-size: 12px;
+        color: black;
+    }
+
+    /*login button*/
+    .btn1{
+        background-color: rgba(110, 44, 0, 0.8);
+        border-color: rgba(110, 44, 0, 0.8);
+    }
+
+    /*commnet and post button*/
+    .btn3,
+    .btn4{
+        background-color: rgba(110, 44, 0, 0.8);
+        border-color: rgba(110, 44, 0, 0.8);
+    }
+
+    .btnAdd{
+        background-color: rgba(110, 44, 0, 0.8);
+        border-color: rgba(110, 44, 0, 0.8);
+    }
+
+    /*for categories list*/
+    .list{
+        font-family: 'Sigmar One', cursive;
+        font-size: 25px;
+        color: rgba(110, 44, 0, 0.8);   
+    }
+
+
+    .postTitle, 
+    .postBody,
+    .postCategory,
+    .postFeatured,
+    .addPost{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        color: rgba(110, 44, 0, 0.8);
+        letter-spacing: 1px;
+    }
+
+    /*for view categories section*/
+    .list-group-item{
+        background-color: transparent;
+        border-style: none;
+    }
+
+    p.load {
+        margin-top: 15px;
+        font-family: 'Bree Serif', serif;
+        font-size: 21px;
+        color: black;
+    }
+
+    p.load2 {
+        font-family: 'Bree Serif', serif;
+        font-size: 15px;
+        color: black;
+    }
+
+
+    /*for post */
+    p#post-body {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        text-align: left;
+        text-indent: 50px; 
+        line-height: 2;
+        color: black;
+    }
+    p#post-body2 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        text-align: left;
+        line-height: 2;
+        color: black;
+    }
+    p#post-body3 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        text-align: left;
+        line-height: 2;
+        color: black;
+    }
+    .hr{
+        border-color: transparent;
+    }
+
+    /*titles*/
+    .title2{
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: 17px;
+        color: black;
+    }
+
+    #title3{
+        font-family: 'Sigmar One', cursive;
+        font-size: 15px;
+        color: rgba(110, 44, 0, 0.8);   
+    }
+
+
+    #categoryTitle{
+        font-family: 'Sigmar One', cursive;
+        font-size: 15px;
+        color: rgba(110, 44, 0, 0.8);
+    }
+
+
+    .nav .fas a li{
+        color: black;
+    }
+
+    /*for comment*/
+    .comment{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        color: black;
+    }
+
+    #btnComment{
+        width: 250px;
+        height: 35px;
+        margin-left: 150px; 
+        font-size: 12px;   }
+   
+    #bag{
+        margin-left:550px;
+        height: 250px;
+    }
+    
+    
+    /*title text area*/
+    #col7{
+        width: 586px;
+    }
+
+    /*icons*/
+    #like,
+    #comment,
+    #view,
+    #edit,
+    #delete,
+    #delete2{
+        color: rgba(0, 0, 0, 0.8);
+
+    }
+
+    .btnDelete{
+        background-color: rgba(110, 44, 0, 0.8);
+        border-color: rgba(110, 44, 0, 0.6);
+        color: white;
+        font-size: 12px;
+        height: 22px;   
+    }
+
+    .hr2{
+        border-color: black;
+    }
+
+    #col7{
+        padding-left: 0.5%;
+    }
