@@ -5,71 +5,102 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>My Portfolio</title>
+	<title>Ma.Lourdes Pineda</title>
+	<!-- <link rel="icon" href="images/bag.png"> -->
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/"></script>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  	
+  	<!-- fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Pragati+Narrow" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+
+
 </head>
 
 <body>
-	<!-- for banner -->
-	<div id="bannerpage" class="banner">
-		<h2 class="name">Ma.Lourdes Pineda</h2>
-		<p class="intro"><font>Studied at tuitt boot camp as full stack web developer,<br>An artist wanna be who's addicted to art and adventure hunter.</font></p>
+	<!-- navbar section -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="#">My Portfolio</a>
+    		</div>
+ 		
+    		<ul class="nav navbar-nav">
+		      <li><a href="#educ">ATTAINMENT</a></li>
+		      <li><a href="#work">CAREER HISTORY</a></li>
+		      <li><a href="#skills">SKILLS</a></li>
+		      <li><a href="#projects">PROJECTS</a></li>
+	    	</ul>	
+  		</div>
+	</nav>
+		
 
-		<img class="profile" src="image/profile.jpg">
+<!-- banner intro and icon link -->
+<div class="banner">
+	<img class="profile" src="image/profile.jpg">
 
-		<div class="navbar">
-  			<a href="#educ">EDUCATION</a>
-  			<a href="#work">WORK EXPERIENCE</a>
-  			<a href="#skills">SKILLS</a>
- 			<a href="#contact">PROJECT</a>
+	<a href="https://github.com/desss91">
+		<img class="git" src="image/github.png"></a>
+	
+	<a href="https://www.instagram.com/desslabo/">
+		<img class="ig" src="image/ig.png"></a>
+	
+	<a href="https://mail.google.com/mail/u/0/#inbox">
+		<img class="gmail" src="image/gmail.png"></a>
+
+	<img class="dev" src="image/dev.png">
+	
+
+	<p class="intro">
+		<font>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Quisque volutpat lacus nibh,id consequat ante ullamcorper sed.Aliquam<br>idvarius ipsum.Sed consequat bibendum sapien at condimentum.<br>Aliquam id varius ipsum. Sed consequat bibendum sapien at condimentum.</font>
+	</p>
+		
+	<h4>Web Developer</h4>
+		<div class="text">
+			<h1>MA.LOURDES PINEDA</h1>
 		</div>
-	</div>
-
+</div>
+	
+	
 	<!-- information -->
 
-	<span id="educ">
-	<hr color="white">
-		<h2 class="education">
-		
-			<font color="black">EDUCATION</font>
-		
-		</h2>
-		<img class="educ" src="image/education.png">
-
-		<h2 class="bootcamp">Web Development</h2>
-			<p class="school">Tuitt Boot Camp</p>
-			<p class="add">Caswynn Bldg. timog avenue, QC</p>
-			<p class="year">October 2017 - April 2018</p>
-
-		<hr width="60%" color="black">
-
-		<h2 class="college">BS Computer Science</h2>
-			<p class="school">The University Of Manila</p>
-			<p class="add">Legarda, Sampaloc Manila</p>
-			<p class="year">2007-2011</p>
+	<!-- Education -->
 	
-	
-		<hr width="60%" color="black">
+<h2 class="education">
+	<font color="black">ATTAINMENT</font>
+</h2>
 
-		<h2 class="secondary">Secondary</h2>
-			<p class="school2">Juan Sumulong High School</p>
-			<p class="add2">Murphy Cubao, Quezon City</p>
-			<p class="year2">2003-2007</p>
 
-		<hr width="60%" color="black">
-
-		<h2 class="secondary">Primary</h2>
-			<p class="school2">Aguinaldo Elementary School</p>
-			<p class="add2">18th Avenue Murphy Cubao, Quezon City</p>
-			<p class="year2">1997-2003</p>
-	</span>
+<span id="educ">
+	<img class="educ" src="image/education.png">
+	<div class="wrap">
+		<div class="left">
+			<h2 class="bootcamp">Web Development</h2>		
+				<p class="school">Tuitt Boot Camp</p>
+				<p class="add">Caswynn Bldg. timog avenue, QC</p>
+				<p class="year">October 2017 - May 2018</p>
+		</div>
 		
+		<div class="right">
+			<h2 class="college">BS Computer Science</h2>		
+				<p class="school2">The University Of Manila</p>
+				<p class="add2">Legarda, Sampaloc Manila</p>
+				<p class="year2">2007-2011</p>
+		</div>
+	</div>
+</span>
 
 	<!-- - - -  work section!! - - - -->
 	<span id="work">
-	<hr color="white">
-	<h2 class="workE">WORK EXPERIENCE</h2>
+	<h2 class="workE">CAREER HISTORY</h2>
 
 	<img class="work2" src="image/work.png">
 
@@ -80,7 +111,7 @@
       		<div>
         		<div class="company">ARRIVA MEDICAL</div>
         		<div class="position">ADR Representative</div>
-        		<div class="address">(Bonifacio one tech tower<br> bgc, taguig city)</div>
+        		<div class="address">(Bonifacio one tech tower, bgc taguig city)</div>
       		</div>
       		<span class="number">
         		<span>March 2013</span>
@@ -118,7 +149,7 @@
 
 	
 
-	<span id="skills">
+<span id="skills">
 	
 	<h2 class="skills">
 		<font color="black">SKILLS</font>
@@ -127,17 +158,38 @@
 
 	<!-- skill bar -->
 	<div class="center">
+		
 		<div class="skillbox">
-			<p>Html5</p>
-			<p>50%</p>
+			<p>Adobe Photoshop</p>
+			<!-- <p>65%</p> -->
+			<div class="skill2">
+				<div class="skill_level" style="width: 65%"></div>
+			</div>
+		</div>
+
+		<div class="skillbox">
+			<p>Adobe Lightroom</p>
+			<div class="skill2">
+				<div class="skill_level" style="width: 75%"></div>
+			</div>
+		</div>
+
+		<div class="skillbox">
+			<p>Video Editing</p>
 			<div class="skill2">
 				<div class="skill_level" style="width: 50%"></div>
+			</div>
+		</div>
+
+		<div class="skillbox">
+			<p>Html5</p>
+			<div class="skill2">
+				<div class="skill_level" style="width: 60%"></div>
 			</div>
 		</div>
 		
 		<div class="skillbox">
 			<p>Css</p>
-			<p>50%</p>
 			<div class="skill2">
 				<div class="skill_level" style="width: 50%"></div>
 			</div>
@@ -146,39 +198,35 @@
 
 		<div class="skillbox">
 			<p>Javacript</p>
-			<p>30%</p>
 			<div class="skill2">
-				<div class="skill_level" style="width: 30%"></div>
-			</div>
-		</div>
-	
-
-		<div class="skillbox">
-			<p>Photoshop</p>
-			<p>60%</p>
-			<div class="skill2">
-				<div class="skill_level" style="width: 60%"></div>
-			</div>
-		</div>
-
-
-		<div class="skillbox">
-			<p>Video Editing</p>
-			<p>50%</p>
-			<div class="skill2">
-				<div class="skill_level" style="width: 50%"></div>
+				<div class="skill_level" style="width: 25%"></div>
 			</div>
 		</div>
 	</div>
-
 	</span>
 
+<span id="projects">
 	<h2 class="project">
-		<font color="black">PROJECT</font>
-	</h2>
-	<img class="projectimg" src="image/project.png">
+		<font color="black">PROJECTS</font></h2>
+	
+		<img class="projectimg" src="image/project.png">
+		
+		<div class="monologist">
+			<a href="https://desss91.github.io/b3nc-pineda-lourdes/csp1/"> 
+			<img src="image/tatak.png" width="600"></a>
+ 		</div>
 
-	<h3><a href="https://desss91.github.io/b3nc-pineda-lourdes/csp1/">monologist</h2></a>
- 	<h3 class="tatak"><a href="https://tatakcom.000webhostapp.com/">tatak!</h3></a>
+ 		<div class="tatak">
+ 			<a href="https://tatakcom.000webhostapp.com/">
+ 			<img src="image/tatak.png" width="600"></a>
+ 		</div>
 
+ 		 <div class="explorer">
+ 			<a href="https://tatakcom.000webhostapp.com/">
+ 			<img src="image/explorer.png" width="600"></a>
+ 		</div>
+		
+		<div class="soon"></div>
+		<footer>Copyright © Ma.Lourdes Pineda 2018</footer>	
+</span>
 </html>	
