@@ -2,7 +2,6 @@ body {
   font-family: 'Lato';
 }
 
-
 h1,
 h2,
 h3,
@@ -24,16 +23,6 @@ hr.star-dark {
   margin-bottom: 2.5rem;
 }
 
-hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-  font-family: FontAwesome;
-  font-size: 2em;
-}
 
 hr.star-light {
   border-color: #fff;
@@ -63,6 +52,7 @@ section h2 {
 }
 
 @media (min-width: 992px) {
+  
   section h2 {
     font-size: 1rem;
     line-height: 2.5rem;
@@ -106,7 +96,7 @@ section h2 {
 #mainNav .navbar-brand {
   color: #3333ff;
   font-family: 'Pacifico', cursive;
-  font-weight: 50;
+  font-weight: 45;
 }
 
 #mainNav .navbar-nav {
@@ -137,6 +127,7 @@ section h2 {
 }
 
 @media (min-width: 992px) {
+ 
   .center{
   width: 65%;
   position:absolute;
@@ -302,14 +293,13 @@ header.masthead h2 {
   height: 10px;
 }*/
 
-
   header.masthead {
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
   }
   header.masthead h1 {
-    font-size: 2em;
-    font-family: 'Black Han Sans', sans-serif;
+    font-size: 1.50em;
+  font-family: 'Patua One', cursive;
     letter-spacing: 2px;
     line-height: 3rem;
     color: #3333ff;
@@ -459,6 +449,10 @@ header.masthead h2 {
 
 /*ipad responsive*/
 @media (min-width: 576px) {
+  .container #download {
+    margin-left: 460px;
+    margin-top: 30px;
+  }
 
   .img-fluid{
     margin-top: -70px;
@@ -575,7 +569,7 @@ header.masthead h2 {
   }
 }
 
-.portfolio-modal .portfolio-modal-dialog {
+  .portfolio-modal .portfolio-modal-dialog {
   padding: 3rem 1rem;
   min-height: calc(100vh - 2rem);
   margin: 1rem calc(1rem - 8px);
@@ -584,21 +578,22 @@ header.masthead h2 {
   -moz-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
-}
+  }
 
-.portfolio-modal .portfolio-modal-dialog .close-button {
+  .portfolio-modal .portfolio-modal-dialog .close-button {
   position: absolute;
   top: 2rem;
   right: 2rem;
-}
+  }
 
-.portfolio-modal .portfolio-modal-dialog .close-button i {
+  .portfolio-modal .portfolio-modal-dialog .close-button i {
   line-height: 38px;
-}
+  }
 
-.portfolio-modal .portfolio-modal-dialog h2 {
+  .portfolio-modal .portfolio-modal-dialog h2 {
   font-size: 2rem;
-}
+  }
+
 
 /*phone responsive*/
 @media (min-width: 768px) {
@@ -762,7 +757,7 @@ a:focus, a:hover, a:active {
 
 .bg-third {
   background-color: #fff;
-  height: 850px;
+  height: 900px;
 }
 
 .bg-fourth {
@@ -805,4 +800,3 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
-

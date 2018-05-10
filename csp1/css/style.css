@@ -42,7 +42,7 @@
     position: relative;
     min-height:400px;
     width: 1150px;
-    margin-left: 38px;
+    margin-left: 90px;
     
   }
 
@@ -69,58 +69,7 @@
     
   }
 
-
-/*image title monologist*/
-.title{
-    background-image: url('../image/title.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height:150px;
-    height: 160px;
-
-  }
-
 /*CONTAINERS*/
-/*log in container*/
-.login{
-    background-color: #9B9DA2;
-    border-style: line;
-    border-radius: 4%;
-    margin: 12px;
-    margin-left: 938px;
-    height: 350px;
-    width: 250px;
-}
-
-/*signup container*/
-.signup{
-    background-color: #9B9DA2;
-    border-style: line;
-    border-radius: 4%;
-    margin-left: 670px;
-    margin-top: -369px;
-    height: 350px;
-    width: 250px;
-  }
-
-.book1{
-  border-style: double;
-  border-color: #9B9DA2;
-  height: 270px;
-  width:200px;
-  margin-left: 38px;
-  margin-top:-5px;
-}
-
-.book2{
-  border-style: double;
-  border-color: #9B9DA2;
-  height: 270px;
-  width:200px;
-  margin-left: 290px;
-  margin-top:-276px;
-}
-
 .topbook{
   border-style: double;
   border-color: #9B9DA2;
@@ -191,10 +140,11 @@
 
 /*****text section*****/
 .qoute{
-  font-size: 170%;
-  margin-left:163px;
-  padding-top: 180px;
-  font-family: impact;
+  font-size: 150%;
+  float: right;
+  margin-right: 120px;
+  margin-bottom: 300px;
+  font-family: 'Permanent Marker', cursive;
   letter-spacing: 3px;
   opacity:0.7;
 
@@ -265,25 +215,34 @@
   letter-spacing: 3px;
   margin-top: -315px;
   margin-left: 38px;
-  font-family: impact;
+  font-family: 'Concert One', cursive;
 } 
 
 .top{
-  font-size:125%;
-  font-family: impact;
-  letter-spacing: 3px;
-  margin-left:38px;
-  margin-top:60px;
+  font-size:20px;
+  font-family: 'Concert One', cursive;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  /*padding-left: 100px;*/
+  margin-top:150px;
 }
 
 .bestpoem{
   font-size: 125%;
-  font-family: impact;
+  font-family: 'Concert One', cursive;
   letter-spacing: 3px;
   margin-left: 38px;
   margin-top: 200px;
 }
 
+.monologist{
+  font-size: 100px;
+  font-family: 'Marck Script', cursive;
+  color: #fff;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+}
 
 /****for index2****/
 .romance{
